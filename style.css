@@ -1,0 +1,21 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+.fa-magnifying-glass {
+    font-size: 22px;
+}
+
+.fa-arrow-right {
+    color: white;
+    padding-bottom: 5px;
+}
+
+/* responsibe */
+@media (max-width: 640px) {
+    .nav {
+        display: none;
+    }
+
+    .
+}
