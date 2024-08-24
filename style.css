@@ -2,6 +2,10 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
+* {
+    /* border: 1px solid red; */
+}
+
 .fa-magnifying-glass {
     font-size: 22px;
 }
@@ -11,11 +15,26 @@ body {
     padding-bottom: 5px;
 }
 
+.form {
+    background-image: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+}
+
+/* .portfolio-row-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+} */
+
 /* responsibe */
 @media (max-width: 640px) {
     .nav {
         display: none;
     }
 
-    .
+    .grid-1 {
+        flex-direction: column;
+    }
 }
