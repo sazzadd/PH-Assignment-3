@@ -27,6 +27,15 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
 } */
+.footer-nav {
+    li {
+        padding: 10px 30px;
+    }
+
+    a {
+        color: aliceblue;
+    }
+}
 
 /* responsibe */
 @media (max-width: 640px) {
@@ -34,7 +43,11 @@ body {
         display: none;
     }
 
-    .grid-1 {
-        flex-direction: column;
+    #nav-right {
+        display: none;
+    }
+
+    .footer-nav li {
+        padding: 10px 10px;
     }
 }
