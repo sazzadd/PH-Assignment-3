@@ -15,6 +15,14 @@ body {
     padding-bottom: 5px;
 }
 
+.fa-bars {
+    font-size: 26px;
+}
+
+.dot-menu {
+    display: none;
+}
+
 .form {
     background-image: url("./assets/bg.jpg");
     background-repeat: no-repeat;
@@ -37,6 +45,10 @@ body {
     }
 }
 
+.footer-nav li a:hover {
+    color: #ABEF5F;
+}
+
 .commercial {
     background-image: url("./assets/Vector.png");
     background-repeat: no-repeat;
@@ -55,5 +67,10 @@ body {
 
     .footer-nav li {
         padding: 10px 10px;
+    }
+
+
+    .dot-menu {
+        display: block;
     }
 }
