@@ -37,6 +37,12 @@ body {
     }
 }
 
+.commercial {
+    background-image: url("./assets/Vector.png");
+    background-repeat: no-repeat;
+
+}
+
 /* responsibe */
 @media (max-width: 640px) {
     .nav {
